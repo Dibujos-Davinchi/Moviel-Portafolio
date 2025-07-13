@@ -1,0 +1,611 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	background: linear-gradient( #0770E6, #04D9D9, #07F0AE, #07E667); 
+	font-family: "Playwrite DE Grund", cursive;;
+}
+
+@media  (min-width:360px) and (max-width:480px){
+
+
+a{	
+	color: white;
+	text-decoration: none;
+}
+
+ ul {
+    list-style-type: none;
+    padding-left: 0; /* Opcional: quita la sangría */
+  }
+
+
+nav ul li a{
+display: flex;
+align-content: center;
+justify-content: center;
+margin-block: 40px;
+color: white;
+
+}
+
+nav ul li a img.ventanilla{
+display: block;
+border-radius: 15px;
+border: solid 2px #04D9D9;
+background: white;
+width: 80vw;
+
+
+}
+
+
+.empty{
+	height: 30vw;
+}
+
+.tanglin{
+	background: white;
+	color: black;
+	margin-block: 20px;
+	font-size: 2rem;
+	padding-block: 60px;
+	border-radius: 30px;
+	text-align: center;
+}
+
+section.quien-soy{
+	text-align: center;
+}
+
+
+section.quien-soy img{
+	border: solid 3px white;
+	max-width: 94vw;
+	border-radius: 8px;
+	margin-block: 40px;
+
+}
+
+section.quien-soy h1{
+	margin-block: 40px;
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+	color: #0770E6;
+	font-size: 3rem;
+
+}
+
+h1{
+	padding-block: 10px;
+}
+
+section.quien-soy p{
+
+	margin-block: 40px;
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+	color: #0770E6;
+	font-size: 1rem;
+
+}
+
+p{
+	padding-block: 5px;
+}
+
+
+section.quien-soy h2{
+	display: inline-block;
+  background: white;
+  color: #0770E6;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+	
+}
+
+section.quien-soy h3{
+	display: inline-block;
+  background: #07E667;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+	
+}
+
+section.quien-soy .Ilustración img {
+	border-radius: 100%;
+	animation-name: rotacion;
+	animation-duration: 5s; /* por ejemplo */
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.39,.09,.62,.73);
+	border: solid blue;
+}
+
+section.quien-soy .Ilustración p {
+	font-family: sans-serif;
+	font-size: 2rem;
+	color: white;
+	background: #0770E6;
+	display: inline-block;
+  	border-radius: 10px;
+  	padding: 0.5em 1em;
+  	
+
+}
+
+
+section.quien-soy .Animación img {
+	border-radius: 100%;
+	animation-name: rotacion;
+	animation-duration: 5s; /* por ejemplo */
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.39,.09,.62,.73);
+	border: solid blue;
+}
+
+section.quien-soy .Animación p {
+	font-family: sans-serif;
+	font-size: 2rem;
+	color: white;
+	background: #0770E6;
+	display: inline-block;
+  	border-radius: 10px;
+  	padding: 0.5em 1em;
+
+}
+
+section.quien-soy .DiseñoGrafico img {
+	border-radius: 100%;
+	animation-name: rotacion;
+	animation-duration: 5s; /* por ejemplo */
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.39,.09,.62,.73);
+	border: solid blue;
+}
+section.quien-soy .DiseñoGrafico p {
+	font-family: sans-serif;
+	font-size: 2rem;
+	color: white;
+	background: #0770E6;
+	display: inline-block;
+  	border-radius: 10px;
+  	padding: 0.5em 1em;
+
+}
+
+section.quien-soy .Audiovisual img {
+	border-radius: 100%;
+	animation-name: rotacion;
+	animation-duration: 5s; /* por ejemplo */
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.39,.09,.62,.73);
+	border: solid blue;
+}
+
+section.quien-soy .Audiovisual p {
+	font-family: sans-serif;
+	font-size: 2rem;
+	color: white;
+	background: #0770E6;
+	display: inline-block;
+  	border-radius: 10px;
+  	padding: 0.5em 1em;
+
+}
+
+section.quien-soy .Diseñoweb img {
+	border-radius: 100%;
+	animation-name: rotacion;
+	animation-duration: 5s; /* por ejemplo */
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.39,.09,.62,.73);
+	border: solid blue;
+}
+
+section.quien-soy .Diseñoweb p {
+	font-family: sans-serif;
+	font-size: 2rem;
+	color: white;
+	background: #0770E6;
+	display: inline-block;
+  	border-radius: 10px;
+  	padding: 0.5em 1em;
+
+}
+
+@keyframes rotacion{
+	0%{
+		transform: rotateZ(0deg);
+	}
+
+	100%{
+
+		transform: rotateZ(360deg);
+	}
+
+}
+
+
+section.quien-soy .Programas img{
+	border: none;
+	background: whitesmoke;
+	padding: 6px;
+	border-radius: 20px;
+	width: 40%;
+
+}
+
+section.quien-soy .Estudios article.EstudiosDivicion  .parte1 img{
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
+	border: none;
+	background: white;
+
+}
+
+
+section.quien-soy  .parte1 img.miguel{
+	padding: 0.5em 1em;
+	  margin: 0 auto;
+		
+
+}
+
+section.quien-soy  .parte1 img.SENa{
+	padding: 0.5em 1em;
+	  margin: 0 auto;
+	    width: 60vw;
+
+}
+
+section.quien-soy .Estudios article.EstudiosDivicion  .parte2{
+	border-radius: 10px;
+	background: white;
+
+}
+
+section.quien-soy .Estudios article.EstudiosDivicion  .parte2 p{
+	font-size: 20px;
+	background: ;
+	padding: 10px;
+
+}
+	
+section.quien-soy .Estudios article.EstudiosDivicion  .parte2 img{
+	max-width: 50vw;
+	animation-name: RotacionY;
+	animation-duration: 5s; /* por ejemplo */
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.39,.09,.62,.73);
+
+}
+
+
+@keyframes RotacionY{
+	0%{
+		transform: rotateY(0deg);
+	}
+
+	100%{
+
+		transform: rotateY(360deg);
+	}
+
+}
+/*----------------------------------------------------------------------------------------------*/
+
+
+section.portafolio{
+	
+	justify-content: center;
+	margin-block: 10px;
+	padding: 5px;
+	background: linear-gradient(#E69507,#E67207,#E64B07);
+	border-end-end-radius: 10px;
+	height: 7650px;
+
+
+}
+
+section.portafolio h1{
+	text-align: center;
+	background: white;
+	font-weight: bold;
+	width: 70vw;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 0.5em 1em;
+	margin-top: 50px ;
+
+
+}
+
+
+
+.REEL{
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
+
+
+}
+
+.REEL video{
+	max-width: 100%;
+	border-radius: 10px;
+	border: solid blue;
+}
+
+.carousel{
+	margin-block: 20px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+section.portafolio h2{
+	
+  background:  #07E667;
+  color: white;
+  border: blue;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+	
+}
+
+
+section.portafolio article{
+	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);  /* 3 columnas iguales */
+  	grid-template-rows: repeat(3, 100px);   /* 45 3 filas de 100px de alto */
+  	gap: 10px;                               /* espacio entre celdas */
+  	max-width: 400px;                        /* ancho máximo opcional */
+ 	margin: 0 auto; 
+ 	row-gap: 80px;    /* solo filas */
+ 	
+ 	padding: 5px;
+
+	
+}
+
+
+section.portafolio article img{
+	max-width: 30vw;
+	border:solid 1px blue;
+	border-radius: 5px;
+	
+}
+
+section.portafolio article.parte1{
+	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);  /* 3 columnas iguales */
+  	grid-template-rows: auto;   /* 45 3 filas de 100px de alto */
+  	gap: 10px;                               /* espacio entre celdas */
+  	max-width: 400px;                        /* ancho máximo opcional */
+ 	margin:  auto; 
+ 	
+ 	background: white;
+ 	padding: 5px;
+}
+
+section.portafolio article.animacion{
+	
+	justify-content: center;
+        /* align-content: center; */
+        background: white;
+        height: 1100px;
+        /* flex-direction: column; */
+        margin: 10px;
+        padding-left: 30px;
+        margin-top: 20px;
+        border-radius: 10px;
+	
+
+}
+iframe{
+
+	margin-block: 10px;
+}
+
+.canal{
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+border: solid #07F0AE;
+	background: white;
+	border-radius: 10px;
+}
+
+
+.canal img{
+	
+	width: 20%;
+}
+
+.canal a{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+.canal h3{
+	font-size: 15px;
+}
+
+
+
+section.portafolio article.Audiovisual .videos{
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
+     background: white;
+     text-align: center;
+
+
+}
+
+
+
+article.Audiovisual .videos .contenedor p{
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	background: #0770E6;
+	margin-block: 30px;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+
+
+}
+
+
+article.Audiovisual .videos .contenedor {
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	background: #0770E6;
+	margin-block: 30px;
+	font-language-override: ;
+	background: white;
+    padding: 0.5em 1em;
+	margin: 0 auto;
+	margin-top: 10px;
+
+
+}
+
+
+
+article.Audiovisual .videos .contenedor video{
+	max-width:86vw;
+}
+
+
+
+
+}
+
+/*-----------------------------------------------------------------*/
+
+
+
+section.conctacto h1{
+	margin-block: 40px;
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+	color: #0770E6;
+	font-size: 3rem;
+}
+
+
+.contenedor1{
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(#0770E6, skyblue);
+	margin-block: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	max-width: 95%;
+	margin-left: 7px;
+
+}
+
+
+.contenedor1 img{
+
+	max-width: 90vw;
+	border-radius: 30px;
+	margin-block: 20px;
+	background: white;
+}
+
+.contenedor1 p{
+	margin:0 auto;
+	padding: 0.5em 1.5em,;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+
+.correo{
+	display: grid;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: linear-gradient(#0770E6, skyblue);
+	margin-block: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	max-width: 95%;
+	margin-left: 7px;
+	align-items: center;
+
+}
+
+
+.correo img{
+
+
+	border-radius: 30px;
+	margin-block: 20px;
+	background: white;
+	
+	align-items: center;
+}
+
+.correo p{
+	margin:0 auto;
+	padding: 0.5em 1.5em,;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+
+
+/*_______________________________________________________________*/
+.copyrigth{
+	display: flex;
+	justify-content: center;
+	background: linear-gradient( #0770E6, #04D9D9);
+	margin-top: 90px;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+.copyrigth img{
+max-width: 10vw;
+background: white;
+border-radius: 100%;
+margin: 15px;
+color: white;
+}
+
+.copyrigth p{
+	color: white;
+}
+
+}
+
+
+
